@@ -8,16 +8,26 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Righteous&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/591fa4b7a7.js" crossorigin="anonymous"></script>
+    <script src="./script.js" defer></script>
 </head>
 <body>
     <main>
+        <div id="navbar">
+            <div id="logo">Khays logo</div>
+            <div id="links-container">
+                <a href="#">Projects</a>
+                <a href="#">Comic</a>
+                <!-- <a href="#">header link three</a> -->
+            </div>
+        </div>
         <div id="intro">
             <div id="title">KHABIB KHAYS FRONTEND DEVELOPER</div>
             <div id="summary">Junior Frontend developer with a passion 
                 for creating engaging, intuitive, and user-friendly web experiences.</div>
-            <!-- <button id="contact">Contact Me</button> -->
+            <button id="contact" onclick="alert('Not working yet!');">Contact Me</button>
         </div>
-        <div id="projects">
+    </main>
+    <div id="projects">
             <div class="project">
                 <div class="project-title">Etch-a-Sketch</div>
                 <div class="project-description">
@@ -26,8 +36,8 @@
                     I have created an interactive experience that perfectly replicates the traditional 
                     Etch-a-Sketch in modern way</div>
                 <div class="project-link">
-                    <a href="https://khaysk.github.io/Etch-a-Sketch-JS/"><button>Website</button></a>
-                    <a href="https://github.com/KhaysK/Etch-a-Sketch-JS"><button>Repository</button></a>
+                    <a href="https://khaysk.github.io/Etch-a-Sketch-JS/">Website</a>
+                    <a href="https://github.com/KhaysK/Etch-a-Sketch-JS">Repository</a>
                 </div>
             </div>
             <div class="project">
@@ -38,8 +48,8 @@
                     that allows players to make their choices, see the results of each round, and keep track of the score
                 </div>
                 <div class="project-link">
-                    <a href="https://khaysk.github.io/Rock-Paper-Scissors-JS-Project/"><button>Website</button></a> 
-                    <a href="https://github.com/KhaysK/Rock-Paper-Scissors-JS-Project"><button>Repository</button></a>
+                    <a href="https://khaysk.github.io/Rock-Paper-Scissors-JS-Project/">Website</a> 
+                    <a href="https://github.com/KhaysK/Rock-Paper-Scissors-JS-Project">Repository</a>
                 </div>
             </div>
             <div class="project">
@@ -49,19 +59,29 @@
                     user-friendly interface, and comprehensive tour booking system. The platform provides
                     visitors with popular destinations and tour packages.</div>
                 <div class="project-link">
-                    <a href="https://khaysk.github.io/IsmaTour/src/"><button>Website</button></a> 
-                    <a href="https://github.com/KhaysK/IsmaTour"><button>Repository</button></a>
+                    <a href="https://khaysk.github.io/IsmaTour/src/">Website</a> 
+                    <a href="https://github.com/KhaysK/IsmaTour">Repository</a>
                 </div>    
             </div>
+    </div>
+    <div id="comic">
+        <img id="image" src="" alt="" >
+        <div id="img-info">
+            <div id="img-title">Title:</div>
+            <div id="img-date">Date:</div>
         </div>
+        
+
+    </div>
+    <footer>
         <div id="socials">
             <ul>
                 <li><a href="https://github.com/KhaysK/" class="gh-link"><i class="fa-brands fa-github"></i></a></li>
                 <li><a href="https://t.me/KhaysK" class="tg-link"><i class="fa-brands fa-telegram"></i></a></li>
                 <li><a href="https://www.instagram.com/khabib_khays" class="is-link"><i class="fa-brands fa-instagram"></i></a></li>
-                <li><a href="mailto:haysadykov@gmail.com" class="email"><i class="fa-solid fa-envelope"></i></i></a></li>
+                <li><a href="mailto:haysadykov@gmail.com" class="email"><i class="fa-solid fa-envelope"></i></a></li>
             </ul>
         </div>
-    </main>
+    </footer>
 </body>
 </html>
